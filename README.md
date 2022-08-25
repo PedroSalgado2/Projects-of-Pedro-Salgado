@@ -90,3 +90,48 @@ namespace numero
         }
     }
 }
+
+Arrays Project
+
+using System;
+
+using System.Linq;
+
+namespace Arrays
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter size of array: ");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[size];
+
+            Console.WriteLine("Enter {0} elements in the array", size);
+            for (int i = 0; i < size; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            Console.Write("\nElements in array are: ");
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write("{0} ", arr[i]);
+            }
+
+            Console.WriteLine("\n\nThe sum of the values are: " + arr.Sum());
+
+            Console.WriteLine("\nThe values in descending order: ");
+            foreach (int val in arr)
+            { 
+                Console.WriteLine("{0} ", val);
+            }
+            Array.Sort(arr);
+            Array.Reverse(arr);
+
+            Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+
+            Console.ReadLine();
+        }
+    }
+}
