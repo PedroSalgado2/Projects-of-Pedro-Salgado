@@ -183,3 +183,126 @@ namespace Array Project 2
         }
     }
 }
+
+Array Project 3
+
+using System;
+
+using System.Linq;
+
+namespace Array Project 3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i, size, num, pos;
+
+            Console.Write("Enter size of array: ");
+            size = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[size];
+            int[] arr2;
+
+            Console.WriteLine("\nEnter {0} elements in the array", size);
+            for (i = 0; i < size; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            Console.Write("\nEnter element to insert : ");
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nEnter the element position 1 to {0}:", size);
+            pos = Convert.ToInt32(Console.ReadLine());
+
+            if (pos > size + 1 || pos <= 0)
+            {
+                Console.Write("\nInvalid position! Please enter position between 1 to {0}", size);
+            }
+            else
+            {
+                arr2 = new int[size + 1];
+                for (i = size; i >= pos; i--)
+                {
+                    arr2[i] = arr[i - 1];
+
+                }
+
+                arr2[pos - 1] = num;
+                size++;
+
+                for (i = 0; i < pos - 1; i++)
+                {
+                    arr2[i] = arr[i];
+                }
+
+                Console.Write("\nArray elements after insertion : ");
+                for (i = 0; i < size; i++)
+                {
+                    Console.Write("{0}\t", arr2[i]);
+                }
+            }
+
+            Console.WriteLine("\n\nProject done by: Pedro Miguel Meira Salgado");
+            Console.ReadLine();
+
+        }
+    }
+}
+
+Calculator Project
+
+using System;
+
+using System.Linq;
+
+namespace Calculadora
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            decimal num1, num2, resultado;
+            string operation;
+            
+
+
+            Console.WriteLine("Type the first number: ");
+            num1 = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("\nType the second number: ");
+            num2 = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("\n+, -, x or / ?: ");
+            operation = Console.ReadLine();
+
+            if (operation == "x")
+            {
+                resultado = num1 * num2;
+                Console.WriteLine("\nThe result is: " + num1 + " x " + num2 + " = " + resultado);
+                Console.ReadLine();
+                Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+            }
+            else if (operation == "/")
+            {
+                resultado = num1 / num2;
+                Console.WriteLine("\nThe result is: " + num1 + " / " + num2 + " = " + resultado);
+                Console.ReadLine();
+                Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+            }
+            else if (operation == "+")
+            {
+                resultado = num1 + num2;
+                Console.WriteLine("\nThe result is: " + num1 + " + " + num2 + " = " + resultado);
+                Console.ReadLine();
+                Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+            }
+            else if (operation == "-")
+            {
+                resultado = num1 - num2;
+                Console.WriteLine("\nThe result is: " + num1 + " - " + num2 + " = " + resultado);
+                Console.ReadLine();
+                Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+            }
+        }
+    }
+}
