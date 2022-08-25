@@ -8,30 +8,30 @@ namespace Projeto1
     {
         static void Main(string[] args)
         {
-            string nome, distrito;
-            int nota;
+            string name, district;
+            int grade;
             
 
-            Console.WriteLine("Insira o seu nome: ");
-            nome = Console.ReadLine(); 
+            Console.WriteLine("Type your name: ");
+            name = Console.ReadLine(); 
 
-            Console.WriteLine("Insira o seu distrito de residência: ");
-            distrito = Console.ReadLine();
+            Console.WriteLine("Type your district: ");
+            district = Console.ReadLine();
 
-            Console.WriteLine("Insira a sua nota de avaliação: ");
-            nota = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Type your grade: ");
+            grade = Convert.ToInt32(Console.ReadLine());
 
-            if (nota >= 10)
+            if (grade >= 10)
             {
-                Console.WriteLine("Bem vindo " + nome + " residente em " + distrito + ". Com " + nota + " valores estás aprovado");
+                Console.WriteLine("Welcome " + name + " you live in " + district + ". Your grade is " + grade + " values, you are approved");
             }
 
             else
             {
-                Console.WriteLine("Bem vindo " + nome + " residente em " + distrito + ". Com " + nota + " valores estás reprovado");
+                Console.WriteLine("Welcome " + name + " you live in " + district + ". Your grade is " + grade + " values, you are not approved");
             }
 
-            Console.WriteLine("\nTrabalho realizado por: Pedro Miguel Meira Salgado");
+            Console.WriteLine("\nPorject done by: Pedro Miguel Meira Salgado");
 
             Console.ReadLine();
 
@@ -132,6 +132,54 @@ namespace Arrays
             Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
 
             Console.ReadLine();
+        }
+    }
+}
+
+Array Project 2
+
+using System;
+
+using System.Linq;
+
+namespace Array Project 2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter size of array: ");
+            int size=Convert.ToInt32(Console.ReadLine());
+            int [] arr = new int[size];
+            int even, odd;
+
+            Console.WriteLine("Enter {0} elements in the array", size);
+            for (int i = 0; i < size; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            even = 0;
+            odd = 0;
+
+            for (int i = 0; i < size; i++)
+            {
+                if (arr[i] % 2 == 0)
+                {
+                    even++;
+                }
+                else
+                {
+                    odd++;
+                }
+            }
+
+            Console.WriteLine("\nTotal even elements: {0}", even);
+            Console.WriteLine("\nTotal odd elements: {0}", odd);
+            Console.WriteLine("\nProject coded by: Pedro Miguel Meira Salgado");
+            Console.ReadLine();
+
+            Console.ReadKey();
+
         }
     }
 }
