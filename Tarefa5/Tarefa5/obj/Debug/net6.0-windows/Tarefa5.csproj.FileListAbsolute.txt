@@ -1,0 +1,33 @@
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Tarefa5.exe
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Tarefa5.deps.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Tarefa5.runtimeconfig.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Tarefa5.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Tarefa5.pdb
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.Form1.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.Form2.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.AssemblyInfo.cs
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\refint\Tarefa5.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.pdb
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.genruntimeconfig.cache
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\ref\Tarefa5.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.Form3.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.Properties.Resources.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Calculadora2.Calculadora.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.csproj.CopyComplete
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\obj\Debug\net6.0-windows\Tarefa5.Form5.resources
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Lista Compras.deps.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Lista Compras.runtimeconfig.json
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Lista Compras.exe
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Lista Compras.dll
+C:\Users\pedro\source\repos\Tarefa5\Tarefa5\bin\Debug\net6.0-windows\Lista Compras.pdb

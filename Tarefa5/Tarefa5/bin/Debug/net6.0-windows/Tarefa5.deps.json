@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tarefa5/1.0.0": {
+        "dependencies": {
+          "WinFormsApp1": "1.0.0"
+        },
+        "runtime": {
+          "Tarefa5.dll": {}
+        }
+      },
+      "Lista Compras/1.0.0": {
+        "runtime": {
+          "Lista Compras.dll": {}
+        }
+      },
+      "WinFormsApp1/1.0.0": {
+        "runtime": {
+          "WinFormsApp1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tarefa5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lista Compras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
